@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lembaga Lorem Ipsum</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        *:focus-visible {
+            outline: 3px solid #0f4c81 !important;
+            outline-offset: 2px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topbar {
+            font-size: .85rem;
+            background: #0f4c81;
+            color: white;
+        }
+
+        .topbar a {
+            color: white;
+            text-decoration: none;
+            margin-right: 18px;
+        }
+
+        .breaking {
+            background: #fff8e1;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+
+        .muted {
+            color: #6c757d;
+        }
+
+        .quick-icon {
+            text-align: center;
+            padding: 18px;
+            cursor: pointer;
+        }
+
+        .quick-icon i {
+            font-size: 34px;
+        }
+
+        .service-card {
+            cursor: pointer;
+            transition: .2s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .tiny {
+            font-size: 12px;
+        }
+
+        .hero img {
+            height: 520px;
+            object-fit: cover;
+        }
+
+        .caption-box {
+            background: rgba(0, 0, 0, .45);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .badge-new {
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ========================= -->
+    <!-- TOPBAR -->
+    <!-- ========================= -->
+    <div class="topbar py-2">
+        <div class="container d-flex justify-content-between">
+            <div>
+                <a href="#">PPID</a>
+                <a href="#">FAQ</a>
+                <a href="#">Karier</a>
+                <a href="#">Hubungi Kami</a>
+            </div>
+            <div>
+                <a href="#">Indonesia</a>
+                <a href="#">English</a>
+            </div>
+        </div>
+    </div>
+    <!-- ========================= -->
+    <!-- NAVBAR -->
+    <!-- ========================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://picsum.photos/50" width="50" alt="Logo Lembaga Lorem Ipsum">
+                <strong>Lorem Ipsum</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"> Beranda </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Profil </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#"> Tentang Kami </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"> Visi & Misi </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"> Struktur Organisasi </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Layanan </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Publikasi </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Berita </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Kontak </a>
+                    </li>
+                </ul>
+                <form class="d-flex ms-3" role="search">
+                    <input class="form-control" placeholder="Cari informasi" aria-label="Cari informasi">
+                    <button class="btn btn-warning" aria-label="Cari"> 🔍 </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- ========================= -->
+    <!-- BREAKING NEWS -->
+    <!-- ========================= -->
+    <div class="breaking py-2">
+        <div class="container d-flex flex-column flex-md-row align-items-md-center">
+            <span class="badge bg-danger me-2 mb-2 mb-md-0">PENGUMUMAN</span>
+            <span class="text-dark small">
+                Portal layanan digital terbaru telah diluncurkan • Pendaftaran bantuan masyarakat dibuka hingga 30 September • Lorem Ipsum menerima penghargaan inovasi pelayanan publik • <a href="#" class="text-primary fw-bold text-decoration-none" aria-label="Selengkapnya mengenai peluncuran portal layanan digital terbaru">Klik di sini untuk informasi selengkapnya.</a>
+            </span>
+        </div>
+    </div>
+    <!-- ========================= -->
+    <!-- BREADCRUMB -->
+    <!-- ========================= -->
+    <div class="container mt-3">
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="#"> Beranda </a>
+                </li>
+                <li class="breadcrumb-item active"> Home </li>
+            </ol>
+        </nav>
+    </div>
+    <!-- ========================= -->
+    <!-- HERO -->
+    <!-- ========================= -->
+    <div id="heroCarousel" class="carousel slide hero" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://picsum.photos/1600/600?1" class="d-block w-100" alt="Gedung kantor pelayanan publik Lembaga Lorem Ipsum">
+                <div class="carousel-caption">
+                    <div class="caption-box">
+                        <span class="badge bg-danger badge-new"> BARU </span>
+                        <h1> Selamat Datang di Lembaga Lorem Ipsum </h1>
+                        <p> Mendorong transformasi layanan publik yang inklusif, cepat, dan terpercaya. </p>
+                        <a class="btn btn-warning" href="#" aria-label="Klik di sini untuk profil lengkap Lembaga Lorem Ipsum"> Klik di sini </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/1600/600?2" class="d-block w-100" alt="Ilustrasi layar komputer menampilkan portal pelayanan publik digital nasional">
+                <div class="carousel-caption">
+                    <div class="caption-box">
+                        <h1> Pelayanan Publik Digital Nasional </h1>
+                        <p> Sistem layanan terintegrasi untuk seluruh masyarakat. </p>
+                        <a class="btn btn-light" href="#" aria-label="Selengkapnya tentang Pelayanan Publik Digital Nasional"> Selengkapnya </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/1600/600?3" class="d-block w-100" alt="Ilustrasi kolaborasi lintas sektor digitalisasi Indonesia">
+                <div class="carousel-caption">
+                    <div class="caption-box">
+                        <h1> Membangun Indonesia Digital </h1>
+                        <p style="color: #e0e0e0;"> Kolaborasi lintas sektor menuju pelayanan publik modern. </p>
+                        <button class="btn btn-success" aria-label="Pelajari selengkapnya tentang Indonesia Digital"> Pelajari </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" aria-label="Slide sebelumnya">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next" aria-label="Slide berikutnya">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+    <!-- ========================= -->
+    <!-- QUICK SEARCH -->
+    <!-- ========================= -->
+    <section class="container py-4">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h2>Layanan Informasi</h2>
+                <p class="muted"> Temukan informasi, layanan, publikasi, dan berita terbaru dari Lembaga Lorem Ipsum. </p>
+            </div>
+            <div class="col-lg-4">
+                <form class="input-group" role="search">
+                    <input type="text" class="form-control" placeholder="Cari layanan atau berita" aria-label="Cari layanan atau berita">
+                    <button class="btn btn-primary" aria-label="Cari"> 🔎 </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= -->
+    <!-- QUICK ACCESS -->
+    <!-- ========================= -->
+    <section class="container pb-5">
+        <h2 class="visually-hidden">Akses Cepat</h2>
+        <div class="row text-center g-3">
+            <div class="col-6 col-md-3">
+                <a href="#" class="border rounded quick-icon d-block text-decoration-none text-dark">
+                    <span aria-hidden="true" style="font-size: 34px; display: block;">📄</span>
+                    <div class="mt-2"> PPID </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3">
+                <a href="#" class="border rounded quick-icon d-block text-decoration-none text-dark">
+                    <span aria-hidden="true" style="font-size: 34px; display: block;">📢</span>
+                    <div class="mt-2"> Pengumuman </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3">
+                <a href="#" class="border rounded quick-icon d-block text-decoration-none text-dark">
+                    <span aria-hidden="true" style="font-size: 34px; display: block;">📊</span>
+                    <div class="mt-2"> Statistik </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3">
+                <a href="#" class="border rounded quick-icon d-block text-decoration-none text-dark">
+                    <span aria-hidden="true" style="font-size: 34px; display: block;">📚</span>
+                    <div class="mt-2"> Publikasi </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= -->
+    <!-- LAYANAN -->
+    <!-- ========================= -->
+    <section class="container py-4">
+        <h2 class="mb-4"> Layanan Publik </h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card service-card h-100 position-relative">
+                    <img src="https://picsum.photos/500/250?11" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3 class="h4">Perizinan Online</h3>
+                        <p> Pengajuan izin secara daring untuk berbagai jenis layanan. </p>
+                        <a href="#" class="stretched-link" aria-label="Selengkapnya tentang Perizinan Online">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card h-100 position-relative">
+                    <img src="https://picsum.photos/500/250?12" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3 class="h4">Pengaduan Masyarakat</h3>
+                        <p> Sampaikan aspirasi dan laporan masyarakat. </p>
+                        <a href="#" class="stretched-link" aria-label="Selengkapnya tentang Pengaduan Masyarakat">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card h-100 position-relative">
+                    <img src="https://picsum.photos/500/250?13" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3 class="h4">Data Terbuka</h3>
+                        <p> Portal data nasional yang dapat diakses masyarakat. </p>
+                        <a href="#" class="stretched-link" aria-label="Selengkapnya tentang Data Terbuka">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card h-100 position-relative">
+                    <img src="https://picsum.photos/500/250?14" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3 class="h4">Informasi Publik</h3>
+                        <p> Permohonan informasi publik sesuai ketentuan. </p>
+                        <a href="#" class="stretched-link" aria-label="Klik di sini untuk Informasi Publik">Klik di sini</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card h-100 position-relative">
+                    <img src="https://picsum.photos/500/250?15" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3 class="h4"> Bantuan </h3>
+                        <p> Panduan penggunaan seluruh layanan digital. </p>
+                        <a href="#" class="stretched-link" aria-label="Selengkapnya tentang Bantuan">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card h-100 position-relative">
+                    <img src="https://picsum.photos/500/250?16" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3 class="h4">Konsultasi Daring</h3>
+                        <p> Konsultasi layanan secara daring. </p>
+                        <a href="#" class="stretched-link" aria-label="Selengkapnya tentang Konsultasi Daring">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= -->
+    <!-- HEADLINE -->
+    <!-- ========================= -->
+    <section class="container py-5">
+        <div class="alert alert-warning">
+            <span class="badge bg-danger"> BARU </span> Portal Nasional Pelayanan Terpadu resmi diluncurkan. <a
+                href="#" aria-label="Klik di sini untuk melihat detail peluncuran Portal Nasional Pelayanan Terpadu"> Klik di sini </a>
+        </div>
+    </section>
+    <!-- ========================= -->
+    <!-- STATISTIK -->
+    <!-- ========================= -->
+    <section class="container py-5">
+        <h2> Statistik Layanan </h2>
+        <div class="row text-center mt-4">
+            <div class="col-6 col-lg-3">
+                <h3> 125.432 </h3>
+                <div> Permohonan </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <h3> 98% </h3>
+                <div> Kepuasan </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <h3> 542 </h3>
+                <div> Layanan </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <h3> 38 </h3>
+                <div> Kantor Wilayah </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= -->
+    <!-- BERITA TERBARU -->
+    <!-- ========================= -->
+    <section class="container py-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2> Berita Terbaru </h2>
+            <a href="#" aria-label="Lihat semua berita terbaru"> Lihat Semua </a>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <img src="https://picsum.photos/600/400?21" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <span class="badge bg-primary"> Berita </span>
+                        <h3 class="h4 mt-2"> Layanan Digital Diresmikan </h3>
+                        <p> Sistem baru mendukung pelayanan masyarakat secara nasional. </p>
+                        <a href="#" aria-label="Selengkapnya tentang Berita Layanan Digital Diresmikan">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <img src="https://picsum.photos/600/400?22" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <span class="badge bg-success"> Kegiatan </span>
+                        <h3 class="h4 mt-2"> Workshop Nasional </h3>
+                        <p> Pelatihan transformasi digital bagi pemerintah daerah. </p>
+                        <a href="#" aria-label="Selengkapnya tentang Kegiatan Workshop Nasional">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <img src="https://picsum.photos/600/400?23" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <span class="badge bg-secondary"> Publikasi </span>
+                        <h3 class="h4 mt-2"> Indeks Pelayanan 2026 </h3>
+                        <p> Publikasi terbaru mengenai kualitas pelayanan publik. </p>
+                        <a href="#" aria-label="Klik di sini untuk Publikasi Indeks Pelayanan 2026">Klik di sini</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= -->
+    <!-- KONTEN -->
+    <!-- ========================= -->
+    <section class="container py-5">
+        <div class="row">
+            <!-- ========================= -->
+            <!-- KEGIATAN -->
+            <!-- ========================= -->
+            <div class="col-lg-8">
+                <h2 class="mb-4"> Kegiatan </h2>
+                <div class="list-group mb-5">
+                    <a href="#" class="list-group-item list-group-item-action" aria-label="Selengkapnya tentang Sosialisasi Layanan Digital tanggal 12 Juli 2026">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="https://picsum.photos/300/200?31" class="img-fluid rounded" alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <div class="text-muted tiny"> 12 Juli 2026 </div>
+                                <h3 class="h4"> Sosialisasi Layanan Digital </h3>
+                                <p> Kegiatan sosialisasi layanan publik digital diikuti oleh lebih dari 300 peserta. </p>
+                                <small> Selengkapnya </small>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action" aria-label="Klik di sini untuk melihat Forum Inovasi Pelayanan tanggal 10 Juli 2026">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="https://picsum.photos/300/200?32" class="img-fluid rounded" alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <div class="text-muted tiny"> 10 Juli 2026 </div>
+                                <h3 class="h4"> Forum Inovasi Pelayanan </h3>
+                                <p> Diskusi bersama pemerintah daerah mengenai digitalisasi layanan. </p>
+                                <small> Klik di sini </small>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action" aria-label="Selengkapnya tentang Kunjungan kerja ke kantor wilayah tanggal 8 Juli 2026">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="https://picsum.photos/300/200?33" class="img-fluid rounded" alt="">
+                            </div>
+                            <div class="col-md-9">
+                                <div class="text-muted tiny"> 8 Juli 2026 </div>
+                                <h3 class="h4"> Kunjungan Kerja ke Kantor Wilayah </h3>
+                                <p> Kunjungan kerja ke kantor wilayah. </p>
+                                <small> Selengkapnya </small>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- ========================= -->
+                <!-- PUBLIKASI -->
+                <!-- ========================= -->
+                <h2 class="mb-4"> Publikasi </h2>
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">No</th>
+                            <th scope="col">Judul</th>
+                            <th scope="col">Tahun</th>
+                            <th scope="col">Unduh</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td> Statistik Pelayanan 2026 </td>
+                            <td> 2026 </td>
+                            <td>
+                                <a href="#" aria-label="Unduh Statistik Pelayanan 2026"> 📄 </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td> Laporan Kinerja Semester I </td>
+                            <td> 2026 </td>
+                            <td>
+                                <a href="#" aria-label="Unduh Laporan Kinerja Semester I 2026"> 📄 </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td> Pedoman Pelayanan Publik </td>
+                            <td> 2025 </td>
+                            <td>
+                                <a href="#" aria-label="Unduh Pedoman Pelayanan Publik 2025"> 📄 </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- ========================= -->
+                <!-- LAPORAN -->
+                <!-- ========================= -->
+                <h2 class="mt-5 mb-4"> Laporan Tahunan </h2>
+                <div class="accordion" id="laporan">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="true" aria-controls="a1"> Tahun 2025 </button>
+                        </h3>
+                        <div id="a1" class="accordion-collapse collapse show" data-bs-parent="#laporan">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>
+                                        <a href="#" aria-label="Unduh Laporan Tahunan Semester I Tahun 2025"> Laporan Semester I 2025 </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" aria-label="Unduh Laporan Tahunan Semester II Tahun 2025"> Laporan Semester II 2025 </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2" aria-expanded="false" aria-controls="a2"> Tahun 2024 </button>
+                        </h3>
+                        <div id="a2" class="accordion-collapse collapse" data-bs-parent="#laporan">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>
+                                        <a href="#" aria-label="Unduh Laporan Tahunan Semester I Tahun 2024"> Laporan Semester I 2024 </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" aria-label="Unduh Laporan Tahunan Semester II Tahun 2024"> Laporan Semester II 2024 </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ========================= -->
+            <!-- SIDEBAR -->
+            <!-- ========================= -->
+            <div class="col-lg-4">
+                <h2> Pengumuman </h2>
+                <div class="list-group mb-5">
+                    <a href="#" class="list-group-item"> Pendaftaran Bantuan Sosial 2026 </a>
+                    <a href="#" class="list-group-item"> Hasil Seleksi Pegawai Honorer </a>
+                    <a href="#" class="list-group-item"> Jadwal Pelayanan Selama Libur Nasional </a>
+                    <a href="#" class="list-group-item"> Panduan Pengajuan Layanan Mandiri </a>
+                </div>
+                <h2> Dokumen Populer </h2>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <img src="https://picsum.photos/600/300?41" class="img-fluid mb-3" alt="">
+                        <h3 class="h5"> Panduan Pelayanan </h3>
+                        <p> Unduh dokumen panduan terbaru. </p>
+                        <a href="#" aria-label="Download Panduan Pelayanan"> Download </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://picsum.photos/600/300?42" class="img-fluid mb-3" alt="">
+                        <h3 class="h5"> Laporan Kinerja </h3>
+                        <p> Ringkasan capaian kinerja lembaga. </p>
+                        <a href="#" aria-label="Unduh Laporan Kinerja Lembaga"> 📄 </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= -->
+    <!-- AGENDA -->
+    <!-- ========================= -->
+    <section class="container py-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2> Agenda </h2>
+            <a href="#"> Lihat Semua </a>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div class="display-4"> 21 </div>
+                        <div> JUL </div>
+                        <hr>
+                        <h3 class="h5"> Seminar Nasional Pelayanan Publik </h3>
+                        <p> Auditorium Lorem Ipsum </p>
+                        <a href="#" aria-label="Selengkapnya tentang Seminar Nasional Pelayanan Publik tanggal 21 Juli"> Selengkapnya </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div class="display-4"> 25 </div>
+                        <div> JUL </div>
+                        <hr>
+                        <h3 class="h5"> Workshop Digital </h3>
+                        <p> Bandung </p>
+                        <a href="#" aria-label="Klik di sini untuk mendaftar Workshop Digital tanggal 25 Juli"> Klik di sini </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div class="display-4"> 30 </div>
+                        <div> JUL </div>
+                        <hr>
+                        <h3 class="h5"> Sosialisasi Inovasi Layanan </h3>
+                        <p> Jakarta </p>
+                        <a href="#" aria-label="Selengkapnya tentang Sosialisasi Inovasi Layanan di Jakarta tanggal 30 Juli"> Selengkapnya </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= -->
+    <!-- GALERI -->
+    <!-- ========================= -->
+    <section class="container py-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2> Galeri Foto </h2>
+            <a href="#" aria-label="Lihat Semua Foto Galeri"> Semua Foto </a>
+        </div>
+        <div class="row g-3">
+            <div class="col-6 col-md-3">
+                <img src="https://picsum.photos/500?51" class="img-fluid rounded" alt="Foto kegiatan pelayanan loket terpadu">
+            </div>
+            <div class="col-6 col-md-3">
+                <img src="https://picsum.photos/500?52" class="img-fluid rounded" alt="Foto suasana sosialisasi inovasi layanan digital">
+            </div>
+            <div class="col-6 col-md-3">
+                <img src="https://picsum.photos/500?53" class="img-fluid rounded" alt="Foto penyerahan piagam penghargaan pelayanan publik">
+            </div>
+            <div class="col-6 col-md-3">
+                <img src="https://picsum.photos/500?54" class="img-fluid rounded" alt="Foto diskusi meja bundar lintas sektor">
+            </div>
+            <div class="col-6 col-md-3">
+                <img src="https://picsum.photos/500?55" class="img-fluid rounded" alt="Foto konferensi pers peluncuran aplikasi baru">
+            </div>
+            <div class="col-6 col-md-3">
+                <img src="https://picsum.photos/500?56" class="img-fluid rounded" alt="Foto kunjungan dinas ke perwakilan daerah">
+            </div>
+            <div class="col-6 col-md-3">
+                <img src="https://picsum.photos/500?57" class="img-fluid rounded" alt="Foto suasana antrean tertib di ruang tunggu utama">
+            </div>
+            <div class="col-6 col-md-3">
+                <img src="https://picsum.photos/500?58" class="img-fluid rounded" alt="Foto sesi foto bersama para peserta workshop nasional">
+            </div>
+        </div>
+    </section>
+    <!-- ========================= -->
+    <!-- VIDEO -->
+    <!-- ========================= -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2> Video </h2>
+                <a href="#" aria-label="Lihat Semua Video"> Semua Video </a>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video dokumentasi Peluncuran Portal Nasional Pelayanan Terpadu"></iframe>
+                    <h3 class="h5 mt-3"> Peluncuran Portal Nasional </h3>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video dokumentasi Workshop Transformasi Pelayanan Digital"></iframe>
+                    <h3 class="h5 mt-3"> Workshop Pelayanan Digital </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= -->
+    <!-- LEMBAGA TERKAIT -->
+    <!-- ========================= -->
+    <section class="container py-5">
+        <h2 class="mb-4"> Lembaga Terkait </h2>
+        <div class="row text-center g-4">
+            <div class="col-4 col-md-2">
+                <a href="#" aria-label="Situs resmi Lembaga Mitra 1">
+                    <img src="https://picsum.photos/120?71" class="img-fluid" alt="Mitra Lembaga 1">
+                </a>
+            </div>
+            <div class="col-4 col-md-2">
+                <a href="#" aria-label="Situs resmi Lembaga Mitra 2">
+                    <img src="https://picsum.photos/120?72" class="img-fluid" alt="Mitra Lembaga 2">
+                </a>
+            </div>
+            <div class="col-4 col-md-2">
+                <a href="#" aria-label="Situs resmi Lembaga Mitra 3">
+                    <img src="https://picsum.photos/120?73" class="img-fluid" alt="Mitra Lembaga 3">
+                </a>
+            </div>
+            <div class="col-4 col-md-2">
+                <a href="#" aria-label="Situs resmi Lembaga Mitra 4">
+                    <img src="https://picsum.photos/120?74" class="img-fluid" alt="Mitra Lembaga 4">
+                </a>
+            </div>
+            <div class="col-4 col-md-2">
+                <a href="#" aria-label="Situs resmi Lembaga Mitra 5">
+                    <img src="https://picsum.photos/120?75" class="img-fluid" alt="Mitra Lembaga 5">
+                </a>
+            </div>
+            <div class="col-4 col-md-2">
+                <a href="#" aria-label="Situs resmi Lembaga Mitra 6">
+                    <img src="https://picsum.photos/120?76" class="img-fluid" alt="Mitra Lembaga 6">
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= -->
+    <!-- FAQ -->
+    <!-- ========================= -->
+    <section class="container py-5">
+        <h2 class="mb-4"> Pertanyaan yang Sering Diajukan </h2>
+        <div class="accordion" id="faq">
+            <div class="accordion-item">
+                <h3 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1"> Bagaimana cara mengajukan layanan? </button>
+                </h3>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faq">
+                    <div class="accordion-body"> Klik di sini untuk informasi selengkapnya. </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2"> Apakah layanan dipungut biaya? </button>
+                </h3>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faq">
+                    <div class="accordion-body"> Selengkapnya tersedia pada halaman layanan. </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= -->
+    <!-- FORM ASPIRASI -->
+    <!-- ========================= -->
+    <section class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="mb-4"> Form Aspirasi Masyarakat </h2>
+                <p class="muted"> Sampaikan masukan, pertanyaan, atau aspirasi Anda kepada Lembaga Lorem Ipsum. </p>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="nama_lengkap" class="form-label">Nama Lengkap</label>
+                            <input type="text" id="nama_lengkap" class="form-control" placeholder="Nama lengkap">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="alamat_email" class="form-label">Alamat Email</label>
+                            <input type="email" id="alamat_email" class="form-control" placeholder="Alamat email">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telepon" class="form-label">Nomor Telepon</label>
+                        <input type="text" id="telepon" class="form-control" placeholder="Nomor telepon">
+                    </div>
+                    <div class="mb-3">
+                        <label for="kategori" class="form-label">Kategori</label>
+                        <select id="kategori" class="form-select">
+                            <option selected disabled> Pilih kategori </option>
+                            <option> Pengaduan </option>
+                            <option> Pertanyaan </option>
+                            <option> Saran </option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="pesan" class="form-label">Pesan Anda</label>
+                        <textarea id="pesan" class="form-control" rows="6" placeholder="Tulis pesan Anda"></textarea>
+                    </div>
+                    <div class="form-check mb-4">
+                        <input class="form-check-input" type="checkbox" id="setuju">
+                        <label class="form-check-label" for="setuju"> Saya menyetujui syarat dan ketentuan </label>
+                    </div>
+                    <button class="btn btn-primary btn-sm"> Kirim </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+    <footer class="bg-dark text-white mt-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h2> Lembaga Lorem Ipsum </h2>
+                    <p> Jl. Jenderal Sudirman No. 123 <br> Jakarta Pusat 10220 </p>
+                    <p class="tiny"> Telp. (021) 5555555 </p>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h5> Profil </h5>
+                    <p>
+                        <a class="text-white tiny" href="#" aria-label="Tentang Lembaga Lorem Ipsum"> Tentang </a>
+                        <br>
+                        <a class="text-white tiny" href="#" aria-label="Visi dan Misi Lembaga"> Visi Misi </a>
+                        <br>
+                        <a class="text-white tiny" href="#" aria-label="Struktur Organisasi Lembaga"> Struktur Organisasi </a>
+                    </p>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5> Layanan </h5>
+                    <p>
+                        <a class="text-white tiny" href="#" aria-label="Layanan Perizinan"> Perizinan </a>
+                        <br>
+                        <a class="text-white tiny" href="#" aria-label="Layanan Pengaduan"> Pengaduan </a>
+                        <br>
+                        <a class="text-white tiny" href="#" aria-label="Lihat semua layanan"> Semua Layanan </a>
+                    </p>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5> Ikuti Kami </h5>
+                    <p>
+                        <a href="https://instagram.com/lembagafiktif" aria-label="Ikuti kami di Instagram">
+                            <img src="https://picsum.photos/36?81" width="36" alt="Instagram Logo">
+                        </a>
+                        <a href="https://x.com/lembagafiktif" aria-label="Ikuti kami di X (Twitter)">
+                            <img src="https://picsum.photos/36?82" width="36" alt="X Logo">
+                        </a>
+                        <a href="https://youtube.com/channel/lembagafiktif" aria-label="Ikuti kami di YouTube">
+                            <img src="https://picsum.photos/36?83" width="36" alt="YouTube Logo">
+                        </a>
+                        <a href="https://tiktok.com/@lembagafiktif" aria-label="Ikuti kami di TikTok">
+                            <img src="https://picsum.photos/36?84" width="36" alt="TikTok Logo">
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="tiny mb-0"> © 2026 Lembaga Lorem Ipsum. Seluruh hak cipta dilindungi. </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white tiny" aria-label="Kebijakan Privasi"> Kebijakan Privasi </a> &nbsp; <a href="#"
+                        class="text-white tiny" aria-label="Syarat Penggunaan"> Syarat Penggunaan </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496"
+        integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ=="
+        data-cf-beacon='{"version":"2024.11.0","token":"5bda1ef5f063480b8e7b6d284dca840b","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
