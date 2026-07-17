@@ -12,6 +12,39 @@
             outline-offset: 2px;
         }
 
+        a {
+            color: #0f4c81;
+            transition: color 0.15s ease-in-out;
+        }
+
+        a:hover, a:focus {
+            color: #0a3357;
+            text-decoration: underline;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: rgba(255, 255, 255, 0.95) !important;
+        }
+
+        .navbar-dark .navbar-nav .nav-link:hover,
+        .navbar-dark .navbar-nav .nav-link:focus {
+            color: #ffc107 !important;
+        }
+
+        .navbar-dark .navbar-nav .nav-link.active {
+            color: #ffc107 !important;
+            font-weight: bold;
+        }
+
+        .breaking a {
+            color: #0f4c81 !important;
+            text-decoration: underline !important;
+        }
+
+        .breaking a:hover {
+            color: #0a3357 !important;
+        }
+
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -338,7 +371,7 @@
     <section class="container py-5">
         <div class="alert alert-warning">
             <span class="badge bg-danger"> BARU </span> Portal Nasional Pelayanan Terpadu resmi diluncurkan. <a
-                href="#" aria-label="Klik di sini untuk melihat detail peluncuran Portal Nasional Pelayanan Terpadu"> Klik di sini </a>
+                href="#" class="alert-link" aria-label="Klik di sini untuk melihat detail peluncuran Portal Nasional Pelayanan Terpadu"> Klik di sini </a>
         </div>
     </section>
     <!-- ========================= -->
